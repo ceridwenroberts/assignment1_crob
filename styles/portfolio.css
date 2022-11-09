@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+    html {
+
+    font-size: 14px;
+    /* || SIZE setting page
+    ||| Double check values and decide breakpoint (see Media Queries) */
+    max-width: 1140px;
+    margin:  0 auto;
+
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+
+h1 {
+    color:#6B9080;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 36px;
+    /* border: 2px solid #CCE3DE; */
+    margin: 0%;
+    font-size: 8rem;   
+}
+
+.gallery-container {
+  
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.grid-item {
+    padding:16px;
+    border:2px solid black;
+    aspect-ratio: 1;
+}
+    
+
+
+
+footer {
+    color: #3b3f3f;
+    text-decoration: none;
+    padding: 24px 16px 16px;
+}
+
+/* FLEX
+.gallery {
+    display:flex;
+    flex-flow: row wrap ;
+  
+    justify-content: center;
+}
+
+.item {
+    background-color:blanchedalmond;
+    border: 2px solid #CCE3DE;
+    color:black;
+    position: relative;
+    width: 200px;
+    height: 200px;
+   
+    */
+
+
+
+
+
+
+/* PORTFOLIO*/
+
+
+
+
+
+
+/* 
+
+SETS IMAGE WITHIN PARENT,
+which will then work like a frame
+.image {
+    max-width: 100%;
+}
+ */
+
+
+ @media screen and (min-width: 601px) {
+    h1 {
+      font-size: 8rem;
+    }
+  }
+  
+  @media screen and (max-width: 601px) {
+    h1 {
+      font-size: 4rem;
+    }
+    .gallery-container {
+        grid-template-columns: 1fr 1fr; }
+
+  }
+  
+  @media screen and (max-width: 330px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }

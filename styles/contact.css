@@ -1,0 +1,159 @@
+/* @font-face {
+    font-family: "Circular";
+    src: url(../styles/typography.css);
+} */
+
+p {
+    font-family: "Circular", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.brand-name {
+    font-family: "Blackout", sans-serif;
+    line-height: 2.2rem ;
+}
+
+h2 {circul
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    max-width: 1920px ;
+    font-size: 14px;
+    margin: 0 auto; /* Centers the webpage */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;  
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.content-main {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.content-main > * {
+   flex: 1;
+}
+
+.content-left,
+.content-right {
+    background-color: pink;
+    border: 1px solid #f58194;
+    flex: 1;
+}
+
+.content-left {
+    padding-right: 20px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center; 
+}
+
+.content-left-inner {
+    padding:  10px 0 10px 50px;
+    flex: 1;
+}
+
+.form-heading {
+    letter-spacing: -.054em;
+   
+    margin: 0;
+    padding: 13px 0;
+    line-height: 1;
+    font-weight: 700px;
+}
+
+.content-right {
+    max-width: 50%;   
+}
+
+.content-right-inner {
+    padding: 50px 70px;
+    width: 100%;
+}
+
+.form-body {
+    padding: 10px 0 50px 0; 
+}
+
+.form-container {
+    
+}
+
+/* || FORM */
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    font-weight: 300;
+    font-family: "Circular", sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+    border-bottom: 1px solid black;
+}
+
+
+.submit-button {
+    line-height: 48px;
+    padding: 0 10px;
+    text-align: center;
+    transition-property: color, background-color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    text-decoration: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F6FFF8;
+    background-color:#6B9080;
+    border: none;
+    font-family: "Circular ";
+}
+
+
+input {
+   /*  text-transform: uppercase; */
+}
+
+ @media only screen and (min-width: 75em) {
+.form-heading {
+    font-size: 60px;
+    padding: 12px 0;
+}
+ }
+
+@media only screen and (min-width: 50em) {
+.form-heading {
+    font-size: 50px;
+    padding: 12px 0;
+}
+}
+

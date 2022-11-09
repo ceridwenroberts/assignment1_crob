@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Blackout Midnight;
+}
+
+.nav-container {
+    
+}
+.nav {
+   /*  border: 2px solid darkred;  */
+    font-family: 'Blackout Midnight';
+    padding-top: 4rem;
+}
+
+.home {
+    font-size: 24px;
+}
+
+.nav-list {
+   /*  border: 1px solid brown; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+padding: 4rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  /*   padding: 1.2rem; */
+    display: flex;
+}
+
+.nav-list li {
+    /* background-color: bisque; */
+    color: #3b3f3f;
+    font-kerning:;/* ||| Add kerning?  */
+    padding: 0.5rem 0;
+/*    border:1px solid black; */
+   
+}
+
+
+a {
+    color: #3b3f3f;
+    padding: 8px 24px;
+    border-left: 1px solid #6B9080;
+    border-right: 1px solid #6B9080;
+    width:100px;
+}
+
+.href-index {
+    border: none;
+    border-left: 2px;
+    min-width: 25rem;
+}
+
+a:active {
+    background-color: #6B9080;
+}
+
+a:link,
+a:visited {
+    /* color: red; */
+    text-decoration: none;
+}
+
+a:hover {
+/*     cursor: pointer; */
+     /* color:#6B9080; */
+     text-shadow: 0 0 5px #6B9080;
+     font-family: "Blackout Sunrise";
+}
+
+body.main a.href-index:link
+body.index a.href-index:link,
+body.portfolio a.href-portfolio:link,
+body.about a.href-about:link,
+body.contact a.href-contact:link,
+body.main a.href-body:link {
+  text-shadow: 0 0 5px palevioletred; 
+  text-shadow: 0 0 5px #6B9080;
+  background-color: #3b3f3f;
+
+}
+
+@media only screen (min-width: 480px){
+    a {
+        border: none;
+    }
+
+}

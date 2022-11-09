@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+} 
+
+html{
+    height: 100vh;
+    /* || SIZE setting page
+    ||| Double check values and decide breakpoint (see Media Queries) */
+    max-width: 1140px;
+    margin:  0 auto;
+    background-color: black;
+}
+
+body {
+    background-color: #F6FFF8;
+    display: flex;
+    height: 100%; /* ||? Why?*/
+    margin: 0;
+    flex-direction: column;
+   /*  height: 100vh; ||| Mabye on main page?*/
+   
+}
+
+main {
+    height: 100vh;
+    background-color: #3b3f3f;
+}
+
+.header{
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color:#6B9080;
+    text-align: center;
+    padding:48px;
+    margin: 0%;
+    font-size: 4rem;
+}
+
+.menu {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    box-shadow: -1px 3px 11px 0px teal
+}
+
+footer {
+    padding: 2rem;
+    font-family: circular_stdbook;
+    text-align: center;
+}
+
+.accent {
+    font-family: "Blackout Sunrise";
+}
+
+.min-box {
+    font-size: 18rem;
+    background-color: #6B9080;
+   
+}
+
+
+
+body.portfolio a.href-portfolio:link,
+body.about a.href-about:link,
+body.contact a.href-contact:link,
+body.main a.href-body:link {
+  text-shadow: 0 0 5px palevioletred; 
+  text-shadow: 0 0 5px #6B9080;
+  background-color: #3b3f3f;
+
+}
+
+/* || MEDIA QUERIEs*/
+
+/*
+||| Choose BREAKPIONT:
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...} 
+
+Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...} 
+*/
+
+
+/* NOTES to self*/
+
+/*
+SETS IMAGE WITHIN PARENT,
+which will then work like a frame
+.image {
+    max-width: 100%;
+}
+ */ 

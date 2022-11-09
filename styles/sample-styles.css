@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+         color: #6B9080;
+        text-align: center;
+        padding: 48px;
+        border: 2px solid #CCE3DE;
+        margin: 0%;
+        font-size: 6rem;
+    
+}
+
+h2 { 
+font-family: "circular_stdbold";
+letter-spacing: -.054em;
+font-size: 3.75rem;
+margin: 0;
+line-height: 1;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+
+button {
+    line-height: 48px;
+    padding: 0 4rem;
+    text-align: center;
+    transition-property: color, background-color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F6FFF8;
+    background-color:#6B9080;
+    border: none;
+}
+
+.submit-button {
+    line-height: 48px;
+    padding: 0 10px;
+    text-align: center;
+    transition-property: color, background-color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    text-decoration: none;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F6FFF8;
+    background-color:#6B9080;
+    border: none;
+}
+
+a:link,
+a:visited {
+    /* color: red; */
+    text-decoration: none;
+}
+
+a:hover {
+/*     cursor: pointer; */
+     /* color:#6B9080; */
+     text-shadow: 0 0 5px #6B9080;
+}
+
+body.portfolio a.href-portfolio:link,
+body.about a.href-about:link,
+body.contact a.href-contact:link,
+body.main a.href-body:link {
+  text-shadow: 0 0 5px palevioletred; 
+}
+
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+}
+.palette>* {
+    padding:48px 0;
+    text-align: center;
+    width: 10rem;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-family: "circular_stdbook";
+  
+    
+}
+
+.colourOne {
+   background-color: #3b3b3f;
+}
+.colourTwo{
+    background-color: #6B9080;
+}
+.colourThree {
+    background-color: #A4C3B2;
+} 
+.colourFour {
+    background-color: #CCE3DE;
+} 
+.colourFive {
+    background-color: #EAF4F4;
+}  
+.colourSix {
+background-color: #F6FFF8;
+} 
+
+.breakpoint-42 {
+    background-color: #6B9080;
+    width: 42em;
+}
+
+.breakpoint-60 {
+    background-color: #6B9080;
+    width: 60em;
+}
+
+.breakpoint-81 {
+    background-color: #6B9080;
+    width: 81em;
+}
+
+.breakpoint-767px {
+    background-color: #6B9080;
+    width: 767px;
+}
+
+.breakpoint-320px {
+    background-color: #6B9080;
+    width: 320px;
+}
