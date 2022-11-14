@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--c-off-black);
+    height: 100vh;
+}
+
+body {
+  height: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: var(--c-off-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-image {
+  background-image: linear-gradient(#00000000, #6b90802d),
+    url("../images/Tudor-Happy-dog-with-pink-tongue-tall.png");
+  height: 100%;
+  background-position: center;background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+main {
+display: flex;
+flex: 1 0 1;
+flex-direction: column;
+height: 100%;
+}
+
+.content {
+    background-color:
+    flex: 1 0 auto;
+  }
+  
+
+.text {
+text-align: center;
+position: relative;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 0 var(--padding-primary);
+color: var(--c-off-white);
+text-shadow: 4px 4px 8px var(--c-green-dark), 0 0 1em var(--c-grey-dark), 2px 2px 0.2em var(--c-off-black);
+}
+
+footer {
+    color: var(--c-green-light);
+  
+}

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--c-off-black);
+}
+
+body {
+  background-color: var(--c-off-black);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+nav a {
+  color: var(--nav-color-light);
+  text-shadow: var(--text-shadow-big);
+}
+
+[aria-current="page"] {
+  background-color: var(--nav-color-light);
+  color: var(--nav-color-dark);
+}
+
+h1 {
+  color: var(--c-grey-light);
+  text-shadow: var(--text-shadow-big);
+}
+
+.text-box-heading {
+  color: #deddd7;
+  font-family: "circular_stdbold";
+  margin-bottom: -10px;
+  margin-top: 68px;
+  text-align: center;
+  text-align: center;
+  text-shadow: var(--text-shadow-big);
+  width: 50%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+.text-box {
+  background-color: #181d04;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  color: #fff;
+  line-height: 1.7;
+  opacity: 52.4%;
+  padding: 48px;
+  width: 50%;
+}
+
+.image-container img {
+  height: auto;
+  width: 100%;
+}
+
+.background-image-big {
+  background-attachment: fixed;
+  background-color: #b5b895;
+  background-image: url("../images/dog-outdoors.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+}
+
+footer {
+  background: var(--bg-gradient-dark);
+  color: var(--c-green-light);
+  font-size: 14px;
+  padding: var(--padding-primary);
+  text-shadow: var(--text-shadow-big);
+}
+
+@media screen and (max-width: 770px) {
+  .text-box {
+    width: 100%;
+  }
+
+  .text-box-header {
+    padding: 0 48px 0 72px;
+    text-align: left;
+    width: 100%;
+  }
+}

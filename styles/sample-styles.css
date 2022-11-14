@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 h1 {
-         color: #6B9080;
+    color: #6B9080;
         text-align: center;
         padding: 48px;
         border: 2px solid #CCE3DE;
@@ -20,7 +20,6 @@ line-height: 1;
 font-weight: 700;
 text-transform: uppercase;
 }
-
 
 button {
     line-height: 48px;
@@ -62,14 +61,14 @@ a:visited {
 a:hover {
 /*     cursor: pointer; */
      /* color:#6B9080; */
-     text-shadow: 0 0 5px #6B9080;
+text-shadow: 0 0 5px #6B9080;
 }
 
 body.portfolio a.href-portfolio:link,
 body.about a.href-about:link,
 body.contact a.href-contact:link,
 body.main a.href-body:link {
-  text-shadow: 0 0 5px palevioletred; 
+text-shadow: 0 0 5px palevioletred; 
 }
 
 .palette {
@@ -85,12 +84,10 @@ body.main a.href-body:link {
     align-items: center;
     display: inline-block;
     font-family: "circular_stdbook";
-  
-    
 }
 
 .colourOne {
-   background-color: #3b3b3f;
+    background-color: #3b3b3f;
 }
 .colourTwo{
     background-color: #6B9080;

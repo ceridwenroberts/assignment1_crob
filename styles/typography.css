@@ -1,155 +1,178 @@
 @font-face {
-    font-family: 'Blackout 2am'; /* Word block */
-    src: url('../fonts/Blackout/blackout-2am-webfont.woff2') format('woff2'),
-         url('../fonts/Blackout/blackout-2am-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-
+  font-family: "Blackout 2am";
+  src: url("../fonts/Blackout/blackout-2am-webfont.woff2") format("woff2"),
+    url("../fonts/Blackout/blackout-2am-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Blackout Two-AM'; /* Paragraph block */
-    src: url('../fonts/Blackout/blackout-two-am-webfont.woff2') format('woff2'),
-         url('../fonts/Blackout/blackout-two-am-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-
+  font-family: "Blackout Two-AM";
+  src: url("../fonts/Blackout/blackout-two-am-webfont.woff2") format("woff2"),
+    url("../fonts/Blackout/blackout-two-am-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Blackout Midnight';
-    src: url('../fonts/Blackout/blackout-midnight-webfont.woff2') format('woff2'),
-         url('../fonts/Blackout/blackout-midnight-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-
+  font-family: "Blackout Midnight";
+  src: url("../fonts/Blackout/blackout-midnight-webfont.woff2") format("woff2"),
+    url("../fonts/Blackout/blackout-midnight-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Blackout Sunrise';
-    src: url('../fonts/Blackout/blackout-sunrise-webfont.woff2') format('woff2'),
-         url('../fonts/Blackout/blackout-sunrise-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-
+  font-family: "Blackout Sunrise";
+  src: url("../fonts/Blackout/blackout-sunrise-webfont.woff2") format("woff2"),
+    url("../fonts/Blackout/blackout-sunrise-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Circular */
 
 @font-face {
-    font-family: 'circular_stdblack';
-    src: url('../fonts/Circular/circularstd-black-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-black-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+  font-family: "circular_stdblack";
+  src: url("../fonts/Circular/circularstd-black-webfont.woff2") format("woff2"),
+    url("../fonts/Circular/circularstd-black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular_stdblack_italic';
-    src: url('../fonts/Circular/circularstd-blackitalic-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-blackitalic-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
+  font-family: "circular_stdblack_italic";
+  src: url("../fonts/Circular/circularstd-blackitalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Circular/circularstd-blackitalic-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'circular_stdbold';
-    src: url('../fonts/Circular/circularstd-bold-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-bold-webfont.woff') format('woff');
-    font-weight: 700    ;
-    font-style: normal;
+  font-family: "circular_stdbold";
+  src: url("../fonts/Circular/circularstd-bold-webfont.woff2") format("woff2"),
+    url("../fonts/Circular/circularstd-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular_stdbold_italic';
-    src: url('../fonts/Circular/circularstd-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-bolditalic-webfont.woff') format('woff');
-    font-weight: 700;
-    font-style: italic;
+  font-family: "circular_stdbold_italic";
+  src: url("../fonts/Circular/circularstd-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Circular/circularstd-bolditalic-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'circular_stdbook';
-    src: url('../fonts/Circular/circularstd-book-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-book-webfont.woff') format('woff');
-    font-weight: 450;
-    font-style: normal;
+  font-family: "circular_stdbook";
+  src: url("../fonts/Circular/circularstd-book-webfont.woff2") format("woff2"),
+    url("../fonts/Circular/circularstd-book-webfont.woff") format("woff");
+  font-weight: 450;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular_stdbook_italic';
-    src: url('../fonts/Circular/circularstd-bookitalic-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-bookitalic-webfont.woff') format('woff');
-    font-weight: 450;
-    font-style: italic;
+  font-family: "circular_stdbook_italic";
+  src: url("../fonts/Circular/circularstd-bookitalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Circular/circularstd-bookitalic-webfont.woff") format("woff");
+  font-weight: 450;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'circular_stdlight_italic';
-    src: url('../fonts/Circular/circularstd-light_italic-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-light_italic-webfont.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+  font-family: "circular_stdlight_italic";
+  src: url("../fonts/Circular/circularstd-light_italic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Circular/circularstd-light_italic-webfont.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'circular_stdlight';
-    src: url('../fonts/Circular/circularstd-light-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-light-webfont.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "circular_stdlight";
+  src: url("../fonts/Circular/circularstd-light-webfont.woff2") format("woff2"),
+    url("../fonts/Circular/circularstd-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular_stdmedium';
-    src: url('../fonts/Circular/circularstd-medium-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-medium-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "circular_stdmedium";
+  src: url("../fonts/Circular/circularstd-medium-webfont.woff2") format("woff2"),
+    url("../fonts/Circular/circularstd-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular_stdmedium_italic';
-    src: url('../fonts/Circular/circularstd-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/Circular/circularstd-mediumitalic-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
+  font-family: "circular_stdmedium_italic";
+  src: url("../fonts/Circular/circularstd-mediumitalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Circular/circularstd-mediumitalic-webfont.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
 }
 
 html {
-    font-family: 'Blackout Sunrise';
-    font-size: 14px;
+  font-family: "Blackout Sunrise";
+  font-size: 14px;
 }
 
 h1 {
-    font-size: 6rem;
+  color: var(--c-green-dark);
+  font-family: "Blackout Sunrise";
+  font-size: 4rem;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
 }
 
 h2 {
-    font-size: 3.75rem;
+  font-family: "circular_stdbold";
+  font-size: 4rem;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.circle1 {
-    font-family: 'circular_stdlight';
+/* h2 based accent type: */
+.chunky-text {
+  color: var(--c-off-black);
+  font-family: "Blackout Midnight";
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h3 {
-    font-size: 3rem;
+  color: var(--c-green-dark);
+  font-size: 2.4rem;
 }
 
-h4 { 
-    font-size: 2.125rem
+h4 {
+  font-family: "circular_stdlight";
+  font-size: 2.125rem;
+  margin: 0;
+  text-align: center;
 }
 
 h5 {
-    font-size: 1.5rem;
+  font-family: "circular_stdlight";
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
 }
 h6 {
-    font-size: 0.25rem;
+  font-size: 0.25rem;
 }
 
 p {
-    font-family: 'circular_stdlight';
-    font-size: 1rem;
+  font-family: "circular_stdlight";
+  font-size: 1rem;
 }
-

@@ -1,0 +1,151 @@
+html {
+  height: 100vh;
+  background-color: var(--c-off-black);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: var(--c-off-white);
+}
+
+header,
+footer {
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+header {
+
+}
+
+.main-content {
+  display: flex;
+  background-color: #F6AE2D;
+  flex: 1 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: repeat(6, fr);
+  grid-template-columns: repeat(6, fr);
+  justify-items: center;
+}
+
+.image {
+  background-color: aquamarine;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.image img {
+  width: 1000px;
+  height: 100%;
+  position: relative;
+}
+
+
+footer {
+  background-color: #33658A;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1; 
+  grid-template-rows: auto;
+
+}
+
+.header {
+  background-color: aquamarine;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.main {
+  background-color: orange;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+
+}
+
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  padding: 24px;
+  border: green;
+  background-color: green;
+}
+
+ */
+
+/* 
+
+.grid-container {
+  display: grid;
+  grid-template: repeat(12, 1fr)/ repeat(12, 1fr);
+  grid-template-areas: "header" "main" "text" "footer";
+}
+
+.grid-item.header {
+  background-color: #9EB3C2;
+  grid-area: header;
+}
+
+.grid-item.sidebar-left {
+  background-color: #1C7293;
+  grid-area: left-sidebar;
+}
+
+.grid-item.main {
+  background-color: #065A82;
+  grid-area: main;
+}
+
+.grid-item.sidebar-right {
+  background-color: #1C7293;
+  grid-area: right-sidebar;
+}
+
+.grid-item.footer {
+  background-color: #1B3B6F;
+  grid-area: footer;
+}
+
+.grid-item.footer-right {
+  background-color: #9EB3C2;
+  grid-area: footer-right;
+}
+
+
+
+
+ */

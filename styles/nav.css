@@ -1,94 +1,83 @@
-* {
-    box-sizing: border-box;
-}
+/*
+Nav has three colours: dark, light, accent. Can be found in variables.css.
 
-html {
-    font-family: Blackout Midnight;
+:root {
+  --nav-color-dark: #3b3f3f;
+  --nav-color-light: #eaf4f4;
+  --nav-color-accent: #6b9080;
 }
+*/
 
 .nav-container {
-    
-}
-.nav {
-   /*  border: 2px solid darkred;  */
-    font-family: 'Blackout Midnight';
-    padding-top: 4rem;
-}
-
-.home {
-    font-size: 24px;
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Blackout Midnight";
+  justify-content: center;
 }
 
 .nav-list {
-   /*  border: 1px solid brown; */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-padding: 4rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-  /*   padding: 1.2rem; */
-    display: flex;
+  align-items: center;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 4rem;
 }
 
 .nav-list li {
-    /* background-color: bisque; */
-    color: #3b3f3f;
-    font-kerning:;/* ||| Add kerning?  */
-    padding: 0.5rem 0;
-/*    border:1px solid black; */
-   
+  padding: 0.5rem 0;
 }
 
-
-a {
-    color: #3b3f3f;
-    padding: 8px 24px;
-    border-left: 1px solid #6B9080;
-    border-right: 1px solid #6B9080;
-    width:100px;
+nav a {
+  border-left: 1px solid var(--nav-color-accent);
+  border-right: 1px solid var(--nav-color-accent);
+  color: var(--nav-color-dark);
+  padding: 8px 24px;
+  width: 100px;
 }
 
-.href-index {
-    border: none;
-    border-left: 2px;
-    min-width: 25rem;
+.nav-index {
+  font-size: 24px;
 }
 
 a:active {
-    background-color: #6B9080;
+  background-color: var(--nav-color-accent);
 }
 
 a:link,
 a:visited {
-    /* color: red; */
-    text-decoration: none;
+  text-decoration: none;
 }
 
-a:hover {
-/*     cursor: pointer; */
-     /* color:#6B9080; */
-     text-shadow: 0 0 5px #6B9080;
-     font-family: "Blackout Sunrise";
+a:where(:hover) {
+  font-family: "Blackout Sunrise";
 }
 
-body.main a.href-index:link
-body.index a.href-index:link,
-body.portfolio a.href-portfolio:link,
-body.about a.href-about:link,
-body.contact a.href-contact:link,
-body.main a.href-body:link {
-  text-shadow: 0 0 5px palevioletred; 
-  text-shadow: 0 0 5px #6B9080;
-  background-color: #3b3f3f;
-
+a[aria-current="page"]:where(:hover) {
+  color: var(--nav-color-accent);
 }
 
-@media only screen (min-width: 480px){
-    a {
-        border: none;
-    }
+[aria-current="page"] {
+  background-color: var(--nav-color-dark);
+  color: var(--nav-color-light);
+  font-family: "Blackout Midnight";
+}
 
+/* For light on dark background:
+[aria-current="page"] {
+  background-color: var(--nav-color-light);
+  color: var(--nav-color-dark);
+}
+*/
+
+@media screen and (max-width: 315px) {
+  nav a {
+    border: none;
+  }
+  h1 {
+    font-size: 2.5rem;
+    padding-bottom: var(padding-tertiary)
+  }
 }

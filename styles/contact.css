@@ -1,159 +1,219 @@
-/* @font-face {
-    font-family: "Circular";
-    src: url(../styles/typography.css);
-} */
-
-p {
-    font-family: "Circular", sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-}
-
-.brand-name {
-    font-family: "Blackout", sans-serif;
-    line-height: 2.2rem ;
-}
-
-h2 {circul
-   
-}
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100vh;
-    max-width: 1920px ;
-    font-size: 14px;
-    margin: 0 auto; /* Centers the webpage */
+  background-color: var(--c-off-black);
+  height: 100vh;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
 }
 
 header {
-    display: flex;  
+  background-color: var(--c-off-white);
 }
 
-main {
-    width: 100%;
-    height: 100vh;
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
 }
 
-.content-main {
-    display: flex;
-    flex-flow: wrap;
+.contact-container > * {
+  flex-basis: 1;
+  flex-grow: 1;
+  min-width: 25rem;
 }
 
-.content-main > * {
-   flex: 1;
+.info-box,
+.form-box {
+  width: 50%;
 }
 
-.content-left,
-.content-right {
-    background-color: pink;
-    border: 1px solid #f58194;
-    flex: 1;
+/* Info-box */
+
+.info-box {
+  background-color: var(--c-green-light);
+  flex: 1 0 auto;
+  padding: var(--padding-primary);
+  text-align: end;
 }
 
-.content-left {
-    padding-right: 20px;
-    padding-left: 100px;
-    display: flex;
-    align-items: center; 
+.brand-name {
+  color: var(--c-green-dark);
+  display: inline-block;
+  font-family: "Blackout Midnight";
+  font-size: 2.4rem;
 }
 
-.content-left-inner {
-    padding:  10px 0 10px 50px;
-    flex: 1;
+.social-media-container {
+  display: flex;
+  font-family: "Blackout Two-am";
+  font-size: 1.5rem;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 1rem 0;
 }
 
-.form-heading {
-    letter-spacing: -.054em;
-   
-    margin: 0;
-    padding: 13px 0;
-    line-height: 1;
-    font-weight: 700px;
+.icon,
+.hashtag {
+  align-self: center;
+  color: var(--c-off-black);
+  display: inline-flex;
+  padding: 0.2rem;
 }
 
-.content-right {
-    max-width: 50%;   
+.icon img {
+  fill: #587669;
+  height: 100%;
+  width: 1.2em;
 }
 
-.content-right-inner {
-    padding: 50px 70px;
-    width: 100%;
+/* Form-box */
+.form-wrapper {
+  padding-top: 16px;
 }
 
-.form-body {
-    padding: 10px 0 50px 0; 
+.form-wrapper > * {
+  font-family: "circular_stdmedium";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 2;
+  text-transform: uppercase;
 }
 
-.form-container {
-    
+.form-box {
+  background-color: var(--c-green-medium);
+  flex: 1 0 auto;
+  padding: var(--padding-primary);
+  text-align: start;
 }
-
-/* || FORM */
 
 input,
 textarea {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid black;
-    padding: 0.5rem;
-    font-weight: 300;
-    font-family: "Circular", sans-serif;
-    font-size: 14px;
-    overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid var(--c-off-black);
+  border: none;
+  font-family: "Circular", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden;
+  padding-left: 0;
+  padding-top: 0.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+input:focus-visible {
+  background-color: var(--c-grey-medium);
+  border-bottom: var(--c-green-dark);
+  outline: 1px solid var(--c-grey-medium);
+}
+
+textarea:focus-visible {
+  background-color: var(--c-grey-medium);
+  border-bottom: var(--c-green-dark);
+  outline: 1px solid var(--c-grey-medium);
+}
+
+label:hover input,
+input:hover {
+  background-color: var(--c-grey-medium);
+}
+
+textarea:hover {
+  background-color: var(--c-grey-medium);
+}
+
+input [type="checkbox"] {
+  display: inline-flex;
+}
+
+*:focus {
+  outline-color: #f6fff8;
 }
 
 textarea {
-    height: 100px;
-    resize: none;
-    border-bottom: 1px solid black;
+  height: 100px;
+  resize: none;
+  border-bottom: 1px solid var(--c-off-black);
 }
 
+.field {
+  padding-top: 1rem;
+}
+
+.radio-checkbox {
+  padding: 1rem 0;
+}
+
+fieldset {
+  border: none;
+  padding-bottom: 2rem;
+}
+
+.offer-checkbox label,
+.species-radio label {
+  align-items: flex-end;
+  display: flex;
+  padding: 0.25rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: var(--c-green-accent-dark);
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: 1px solid #333333;
+  display: inline-flex;
+  height: 1.5em;
+  justify-content: center;
+  margin: 0 4px 0 0;
+  width: 2rem;
+}
+
+.species-ledgend {
+  font-family: Blackout Midnight;
+  font-size: 1.5rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "circular_stdbook";
+  font-size: 0.8rem;
+}
 
 .submit-button {
-    line-height: 48px;
-    padding: 0 10px;
-    text-align: center;
-    transition-property: color, background-color;
-    transition-duration: 200ms;
-    transition-timing-function: ease-in;
-    text-decoration: none;
-    width: 100%;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #F6FFF8;
-    background-color:#6B9080;
-    border: none;
-    font-family: "Circular ";
+  background-color: var(--c-green-dark);
+  border: none;
+  color: #f6fff8;
+  font-family: "circular_stdbook";
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 200ms;
+  transition-property: color, background-color;
+  transition-timing-function: ease-in;
+  width: 100%;
 }
 
-
-input {
-   /*  text-transform: uppercase; */
+footer {
+  background-color: var(--c-off-white);
+  padding: var(--padding-secondary);
 }
 
- @media only screen and (min-width: 75em) {
-.form-heading {
-    font-size: 60px;
-    padding: 12px 0;
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
- }
-
-@media only screen and (min-width: 50em) {
-.form-heading {
-    font-size: 50px;
-    padding: 12px 0;
-}
-}
-
