@@ -1,0 +1,41 @@
+html {
+  background-color: var(--c-off-black);
+  height: 100vh;
+}
+
+body {
+  background-color: var(--c-off-white);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+header,
+footer {
+  color: var(--c-off-white);
+  padding: 24px;
+  text-align: center;
+}
+
+.main-content {
+  align-items: flex-end;
+  background-color: var(--c-off-white);
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+p {
+  color: var(--grey-dark);
+}
+
+footer {
+  color: var(--c-off-white)
+}
