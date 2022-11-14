@@ -1,61 +1,52 @@
-<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tudlington Home</title>
-    <!--   <link href="http://fonts.cdnfonts.com/css/blackout-4" rel="stylesheet"> -->
-    <link rel="stylesheet" href="../styles/typography.css">
-    <link rel="stylesheet" href="../styles/nav.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <!-- <link rel="stylesheet" href="../styles/design.css"> -->
-
+  <title>>Flex page layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 </head>
 
-<body class="main">
-    <header>
-        <!-- New navbar -->
-        <nav>
-            <ul class="nav-list">
-                <li><a href="../html/portfolio.html">Portfolio</a></li>
-                <li><a href="../html/about.html">About</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="heading">
-            <h1>Tudlington</h1>
-        </div>
 
-    </header>
-    <main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/variables.css">
+    <link rel="stylesheet" href="../styles/typography.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/hero.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 
-        <div class="min-box">Min box</div>
-            <style>
-                @keyframes spinning {
-                    from {
-                        transform: rotate(0deg)
-                    }
-
-                    to {
-                        transform: rotate(360deg)
-                    }
-                }
-
-                .spin {
-                    animation-name: spinning;
-                    animation-duration: 3s;
-                    animation-iteration-count: infinite;
-                    animation-timing-function: linear;
-                }
-            </style>
-            <img src="../images/dog-bone1.png" alt="dog bone">
-    </main>
-    <footer>
-        &#169; <span class="accent">Tudor</span> & Ceridwen Roberts 2022
-    </footer>
-
-
+    <title>Home</title>
+</head>
+<body>
+  <header><nav class="nav-container">
+    <ul class="nav-list">
+      <li class="nav-index">
+        <a href="../html/index.html" aria-current="page">Tudlington</a>
+      </li>
+      <li>
+        <a href="../html/portfolio.html">Portfolio</a>
+      </li>
+      <li>
+        <a href="../html/about.html" >About</a>
+      </li>
+      <li>
+        <a href="../html/contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <h1>Tudor</h1>
+  </header>
+  <section class="main-content">
+    <div class="sidebar"></div>
+    <div class="content"></div>
+  </section>
+      <footer>
+        <p> &#169; <span class="footer-accent">Tudor</span> & Ceridwen Roberts 2022</p>
+      </footer>
+    </div>
 </body>
-
-</html>
+</html

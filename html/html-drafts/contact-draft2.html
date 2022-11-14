@@ -1,77 +1,80 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Contact</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/typography.css">
-  <link rel="stylesheet" href="../styles/nav.css">
-  <link rel="stylesheet" href="../styles/footer.css">
-  <link rel="stylesheet" href="../styles/variables.css">
-  <link rel="stylesheet" href="../styles/Contact-from-page-layout.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/typography.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
-<body>
-  <header>
-    <nav class="nav-container">
-      <ul class="nav-list">
-        <li class="nav-index">
-          <a href="../html/index.html">Tudlington</a>
-        </li>
-        <li>
-          <a href="../html/portfolio.html">Portfolio</a>
-        </li>
-        <li>
-          <a href="../html/about.html">About</a>
-        </li>
-        <li>
-          <a href="../html/contact.html" aria-current="page">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <h1>Contact</h1>
-  </header>
-  <main class="contact-container">
-    <div class="info-box">
-      <div class="person">
-        <h2 class="chunky-text">Me:</h2>
-      </div>
-      <p><span class="brand-name">Tudlington</span>
-        <br>
-        Tudor
-        c/o Little Roberts
-        <br>
-        Kampementsgatan 20, lgh 1203
-        <br>
-        11538 Stockholm
-        <br>
-        0046 (0) 73 747 09 21
-        <br>
-        <div class="links">
-            <div class="social-media-container">
-                <div class="hashtag">
-                    &nbsp;#tudlington&nbsp;
-                </div>
-                <div class="icon">
-                    <img src="../images/instagram-logo.svg" alt="#tudlington-instagram-logo">
+<body class="contact">
+    <header>
+        <nav class="nav-container">
+            <ul class="nav-list">
+              <li class="nav-index">
+                <a href="../html/index.html">Tudlington</a>
+              </li>
+              <li>
+                <a href="../html/portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="../html/about.html" >About</a>
+              </li>
+              <li>
+                <a href="../html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        <h1>Contact</h1>
+    </header>
+    <main class="contact-wrapper">
+        <div class="info-box">
+            <div class="person">
+                Me:
+            </div>
+            <p><span class="brand-name">Tudlington</span>
+            <br>
+            Tudor
+            c/o Little Roberts
+            <br>
+            Kampementsgatan 20, lgh 1203
+            <br>
+            11538 Stockholm
+            <br>
+            0046 (0) 73 747 09 21
+            <br>
+            <div class="links">
+                <div class="social-media-container">
+                    <div class="hashtag">
+                        &nbsp;#tudlington&nbsp;
+                    </div>
+                    <div class="icon">
+                        <img src="../images/instagram-logo.svg" alt="#tudlington-instagram-logo">
+                    </div>
                 </div>
             </div>
+            </p>
         </div>
-        </p>
-    </div>
-    <div class="form-box">
-      <legend><h2 class="chunky-text">You:</h2></legend>
+        <div class="form-box">
+            <legend class="person">You:</legend>
             <div class="form-wrapper">
                 <div>
                     <form action="mailto:ceridwen.roberts@cmeducations.se" method="post" enctype="text/plain">
                         <div class="field">
-                            <label for="name">Name<input type="text" id="name" name="name" required placeholder="Required">
+                            <label for="name">Name<input type="text" id="name" name="name" placeholder="Required">
                             </label>
                         </div>
                         <div class="field">
-                            <label for="email">Email<input type="text" id="email" name="email" required placeholder="Required">
+                            <label for="email">Email<input type="text" id="email" name="email" placeholder="Required">
                             </label>
                         </div>
                         <div class="field">
                             <label for="message">Leave a message
-                                <textarea id="message" name="message" rows="5" cols="10" required placeholder="Required... Voof, voof, bark, bark, voof...">
+                                <textarea id="message" name="message" rows="5" cols="10" placeholder="Voof, voof, bark, bark, voof...">
                                 </textarea>
                             </label>
                         </div>
@@ -109,9 +112,10 @@
                     </form>
                 </div>
             </div>
-    </div>
-  </main>
-  <footer>
-    <p> &#169; <span class="footer-accent">Tudor</span> & Ceridwen Roberts 2022</p>
-  </footer>
+        </div>
+    </main>
+    <footer>
+        &#169; <span class="footer-accent">Tudor</span> & Ceridwen Roberts 2022
+    </footer>
 </body>
+</html>
